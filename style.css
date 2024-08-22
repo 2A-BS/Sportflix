@@ -1,0 +1,50 @@
+header{
+    border-bottom: solid 4px rgb(70,130,180);
+    font-size: 45; 
+    color: rgb(0,100,0);
+}
+body{
+    background: #e9d199;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.chamada{
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+div{
+    margin-right: 20px;
+
+}
+.chamada-texto{
+    margin-left: 20px;
+}
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size:20px;
+    }
+img{
+    height: 220px;
+}
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-vídeos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-vídeos img:hover{
+    opacity: 1.0;
+    border: 6px solid rgb(0,100,0)
+}
